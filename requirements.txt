@@ -1,0 +1,6 @@
+pandas
+openpyxl
+ortools
+python-docx
+pyqt5
+argparse

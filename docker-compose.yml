@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  scheduler:
+    build: .
+    container_name: autoshift_scheduler
+    volumes:
+      - ./input_template.xlsx:/app/input_template.xlsx
+      - ./output:/app/output
+    stdin_open: true
+    tty: true
